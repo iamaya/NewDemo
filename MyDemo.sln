@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDemo", "MyDemo\MyDemo.csproj", "{CFBC98EB-418B-4131-9638-CE4CBD0E7CDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{2099F681-3ABC-4B23-BB18-E10BC0551A68}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{0A505E41-B555-4404-9FBA-26988ECD6A63}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\MyDemo-WAWS-dev.json = PublishScripts\Configurations\MyDemo-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{71C5FC4E-6632-49A9-B8D6-D780300E155F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTest", "WebTest\WebTest.csproj", "{557C392A-4C2A-4835-8CAD-F4141D8D78D4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://imaya.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MyDemo\\MyDemo.csproj
+		SccProjectName1 = MyDemo
+		SccLocalPath1 = MyDemo
+		SccProjectUniqueName2 = WebTest\\WebTest.csproj
+		SccProjectName2 = WebTest
+		SccLocalPath2 = WebTest
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFBC98EB-418B-4131-9638-CE4CBD0E7CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBC98EB-418B-4131-9638-CE4CBD0E7CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBC98EB-418B-4131-9638-CE4CBD0E7CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBC98EB-418B-4131-9638-CE4CBD0E7CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{557C392A-4C2A-4835-8CAD-F4141D8D78D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557C392A-4C2A-4835-8CAD-F4141D8D78D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557C392A-4C2A-4835-8CAD-F4141D8D78D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557C392A-4C2A-4835-8CAD-F4141D8D78D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A505E41-B555-4404-9FBA-26988ECD6A63} = {2099F681-3ABC-4B23-BB18-E10BC0551A68}
+	EndGlobalSection
+EndGlobal
